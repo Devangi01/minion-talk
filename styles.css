@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 :root{
-    --primary-color: #fff000;
+    --primary-color: #fde047;
     --border-color: black;
 }
 *{
