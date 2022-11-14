@@ -8,7 +8,7 @@ function getServerURL(text){
 }
 
 btn.addEventListener('click', () => {
-    fetch(getServerURL(inputText.value)).then(result => result.json()).then(res => { 
+    fetch(getServerURL(inputText.value)).then(result => result.json()).then(res => {
         var output = res.contents.translated;
         outputText.innerText = output});
 });
